@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Spicy+Rice:regular);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #23192d;
+    background-color: #fdf0f0;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbe3e3;
+    font-size: 50px;
+    color: #fd0a54;
+    font-family: 'Spicy rice';
+    padding: 20px;
+    border-bottom: 5px solid #fd0a54;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #fd0a54 0%, #f57576 100%);
+}
+
+.hero-content {
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #6ec1e4 0%, #58a9db 100%); /* Light blue gradient */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.hero-btn:hover {
+    background: linear-gradient(135deg, #58a9db 0%, #6ec1e4 100%);
+    transform: translateY(-5px);
+}
+
+
+.start-img img {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: block;
+}
+
+/* Characters Section */
+.personajes {
+    padding: 60px 50px;
+    background-color: #fdf0f0;
+    text-align: center;
+}
+
+.personajes h2 {
+    font-size: 36px;
+    color: #fd0a54;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border: 1px solid #f57576;
+    border-radius: 15px;
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.character-btn {
+    display: block;
+    padding: 10px;
+    background: linear-gradient(135deg, #fd0a54 0%, #f57576 100%);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0;
+    transition: background 0.3s ease;
+}
+
+.character-btn:hover {
+    background: linear-gradient(135deg, #f57576 0%, #fd0a54 100%);
+}
+
+.address-link {
+    display: block;
+    color: #fd0a54;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.address-link:hover {
+    color: #f57576;
+    text-decoration: underline;
+}
+
+/* Characters List Section */
+.personajes-lista {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.personajes-lista p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fd0a54;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 60px 50px;
+    text-align: center;
+    background-color: #ffb0b0;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #23192d;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-img {
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fd0a54;
+    color: #ffffff;
+    font-size: 16px;
+    position: relative;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media svg {
+    width: 36px;
+    height: 36px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-media svg:hover {
+    transform: scale(1.1);
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #fd0a54 0%, #f57576 100%);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #f57576 0%, #fd0a54 100%);
+    transform: translateY(-5px);
+}
