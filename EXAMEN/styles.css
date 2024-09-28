@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Matemasie:regular);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 * {
@@ -14,7 +14,7 @@ body {
     background-color: #fdf0f0;
 }
 
-/* Header Styling */
+/* Encabezado */
 header {
     display: flex;
     justify-content: center;
@@ -22,17 +22,11 @@ header {
     background-color: #fbe3e3;
     font-size: 40px;
     color: #6ec1e4;
-    font-family: 'Alfa Slab One';
+    font-family: 'Matemasie', sans-serif;
     padding: 20px;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Hero Section */
+/* Sección de Inicio */
 .hero {
     padding: 100px 0;
     display: flex;
@@ -78,7 +72,7 @@ header {
     display: block;
 }
 
-/* Characters Section */
+/* Sección de Personajes */
 .personajes {
     padding: 60px 50px;
     background-color: #fdf0f0;
@@ -151,7 +145,7 @@ header {
     text-decoration: underline;
 }
 
-/* Characters List Section */
+/* Lista de Personajes */
 .personajes-lista {
     text-align: center;
     margin: 40px 0;
@@ -164,7 +158,7 @@ header {
     color: #fd0a54;
 }
 
-/* Gallery Section */
+/* Galería */
 .gallery {
     padding: 60px 50px;
     text-align: center;
@@ -227,18 +221,3 @@ footer p {
 }
 
 
-.btn {
-    display: inline-block;
-    padding: 12px 30px;
-    background: linear-gradient(135deg, #fd0a54 0%, #f57576 100%);
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: background 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.btn:hover {
-    background: linear-gradient(135deg, #f57576 0%, #fd0a54 100%);
-    transform: translateY(-5px);
-}
