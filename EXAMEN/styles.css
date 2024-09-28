@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Spicy+Rice:regular);
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One:regular);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 * {
@@ -20,12 +20,16 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #fbe3e3;
-    font-size: 50px;
-    color: #fd0a54;
-    font-family: 'Spicy rice';
+    font-size: 40px;
+    color: #6ec1e4;
+    font-family: 'Alfa Slab One';
     padding: 20px;
-    border-bottom: 5px solid #fd0a54;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Hero Section */
@@ -176,14 +180,16 @@ header {
 .gallery-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 15px;
 }
 
 .gallery-img {
-    max-width: 90%;
+    max-width: 80%;
+    height: 300px;
+    width: 900px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
 }
 
 .gallery-img:hover {
